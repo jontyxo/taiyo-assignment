@@ -1,0 +1,75 @@
+.addcontacthead{
+    margin: 2rem 0rem;
+    font-size: clamp(16px, 3vw, 24px);
+    color: white;
+    font-weight: 600;
+}
+
+.addContact{
+    border: 1px solid black;
+    background-color:#f0564f;
+  width: 70vw;
+  border-radius: 12px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  position: relative;
+}
+label{
+    color: #fff;
+    font-size: clamp(10px,1vw,16px);
+}
+.addcontactbtn{
+    margin: 2rem ;
+    background: transparent;
+    padding: 5px;
+    border:1px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: clamp(10px,1vw,16px);
+}
+.formTogglebtn{
+    top: -15%;
+    position: absolute;
+    right: 5%;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 5px 8px;
+    color: #f0564f;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+}
+.modalContact{
+    
+        height: 100vh;
+       width: 75vw;
+        background: white;
+        display: flex;
+    z-index: 1;
+        align-items: center;
+}
+.contactforminput{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:9px;
+    width: 100%;
+    padding: 5px 8px;
+    margin: 5px 0px;
+    color: white;
+    font-size: clamp(10px,1vw,16px);
+}
+.contactToggleBtn{
+    background: #f0564f;
+    color: #fff;
+    border-radius:16px;
+    padding: 7px 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}

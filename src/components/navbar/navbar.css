@@ -1,0 +1,32 @@
+.navbar{
+    background: #f0564f;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+   align-items: center;
+    width: clamp(12vw,15vw,18vw);
+    height: 100vh;
+    z-index: 999;
+    position: fixed;
+  
+}
+.navbar-span{
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+  font-size: clamp(8px,2vw,18px);
+
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.link{
+    width: 100%;
+  font-size: clamp(8px,2vw,18px);
+    text-decoration: none;
+    font-weight: normal;
+    font-weight: 600;
+    color: #fff;
+}

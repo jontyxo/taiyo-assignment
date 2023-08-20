@@ -1,0 +1,66 @@
+.addcontacthead{
+    margin: 2rem 0rem;
+    font-size: clamp(16px, 4vw, 32px);
+    color: white;
+    font-weight: 600;
+}
+
+.addContact{
+    border: 1px solid black;
+    background-color:#f0564f;
+  width: 30vw;
+  border-radius: 12px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  position: relative;
+}
+label{
+    color: #fff;
+}
+.addcontactbtn{
+    margin: 2rem ;
+    background: transparent;
+    padding: 5px;
+    border:1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.formTogglebtn{
+    top: -15%;
+    position: absolute;
+    right: 5%;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 40px;
+    padding: 5px 8px;
+    color: #f0564f;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactforminput{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:9px;
+    width: 100%;
+    padding: 5px 8px;
+    margin: 10px 0px;
+    color: white;
+}
+.contactToggleBtn{
+    background: #f0564f;
+    color: #fff;
+    border-radius:16px;
+    padding: 7px 8px;
+    font-size: clamp(10px,2vw,20px);
+    border: none;
+    cursor: pointer;
+    
+}

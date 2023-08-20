@@ -1,0 +1,9 @@
+.mapMain{
+    padding: 2rem 0rem;
+}
+.headlineWM{
+    font-size: clamp(16px, 4vw, 32px);
+    margin: 2rem 0rem;
+    font-weight: bold;
+    color: #f0564f;
+}

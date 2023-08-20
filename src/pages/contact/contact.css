@@ -1,0 +1,13 @@
+.contact{
+    left: 17vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0rem;
+    position: absolute;
+    width: 80%;
+}
+.nocontactlist{
+    width: 75vw;
+    text-align: center;
+}
