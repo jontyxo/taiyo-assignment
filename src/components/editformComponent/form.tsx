@@ -66,7 +66,6 @@ const handleAddContact=(e:React.FormEvent<HTMLFormElement>)=>{
 
         </form>
         <button  className='formTogglebtn' onClick={handleToggle}>X</button>
-
         </div>
         </div>
     }
